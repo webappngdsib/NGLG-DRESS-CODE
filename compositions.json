@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "compositions": {
+    "craft/apprentice": {
+      "layers": {
+        "apron": {
+          "src": "περιζωμα μαθητη.jpeg",
+          "x": 50,
+          "y": 58,
+          "size": 48,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/fellow": {
+      "layers": {
+        "apron": {
+          "src": "περιζωμα εταιρου.jpeg",
+          "x": 50,
+          "y": 58,
+          "size": 48,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/master": {
+      "layers": {
+        "apron": {
+          "src": "περιζωμα διδασκαλου.jpeg",
+          "x": 50,
+          "y": 58,
+          "size": 48,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "grand/grand_steward": {
+      "layers": {
+        "apron": {
+          "src": "περιζωμα ΜΕγ Επιμελητη.jpeg",
+          "x": 50,
+          "y": 58,
+          "size": 48,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    }
+  }
+}
