@@ -5,9 +5,9 @@
       "layers": {
         "apron": {
           "src": "περιζωμα μαθητη.jpeg",
-          "x": 50,
-          "y": 58,
-          "size": 48,
+          "x": 49.5,
+          "y": 53.5,
+          "size": 35,
           "rotation": 0,
           "enabled": true
         }
