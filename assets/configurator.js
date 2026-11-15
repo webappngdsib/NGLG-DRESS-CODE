@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const $=id=>document.getElementById(id),builder=document.body.dataset.mode==='builder',groups=window.REGALIA_GROUPS;
 const slots=[['apron','Περίζωμα'],['tie','Γραβάτα'],['sash','Πρόσθετο διάσημο'],['collar','Περιλαίμιο'],['collar_jewel','Κόσμημα περιλαιμίου'],['jewel','Κόσμημα'],['arch_jewel','Κόσμημα Ιεράς Βασιλικής Αψίδος'],['extra','Περιλαίμιο Τάξης Μ. Διδασκάλου'],['pin1','Κόσμημα πέτου 1'],['pin2','Κόσμημα πέτου 2'],['pin3','Κόσμημα πέτου 3']];
-const archRoles=[['none','Χωρίς πρόσθετο κόσμημα ΙΒΑ'],['member','Εταίρος Ιεράς Βασιλικής Αψίδος'],['first','Έξοχος Εταίρος Πρώτος Άρχων Περιστυλίου ΙΒΑ'],['second','Έξοχος Εταίρος Δεύτερος Άρχων Περιστυλίου ΙΒΑ'],['third','Έξοχος Εταίρος Τρίτος Άρχων Περιστυλίου ΙΒΑ']];
+const archRoles=[['none','Χωρίς πρόσθετο κόσμημα ΙΒΑ'],['member','Εταίρος Ιεράς Βασιλικής Αψίδος'],['third','Έξοχος Εταίρος Τρίτος Άρχων Περιστυλίου ΙΒΑ'],['second','Έξοχος Εταίρος Δεύτερος Άρχων Περιστυλίου ΙΒΑ'],['first','Έξοχος Εταίρος Πρώτος Άρχων Περιστυλίου ΙΒΑ']];
 const jewelPosition=[61,29.5,4.5]; // Οριζόντια θέση, ύψος και πλάτος κοσμήματος (%).
 const defaults={collar_jewel:[...jewelPosition],arch_jewel:[...jewelPosition],apron:[50,58,48],tie:[50,29,9],sash:[50,38,55],collar:[50,29,40],jewel:[...jewelPosition],extra:[50,29,42],pin1:[...jewelPosition],pin2:[...jewelPosition],pin3:[...jewelPosition]};
 const clone=x=>JSON.parse(JSON.stringify(x));let published={version:2,compositions:{}},saved=null,drafts={},dirty=new Set(),db,localPreview=null,showLocal=true;const syncChannel=typeof BroadcastChannel==='function'?new BroadcastChannel('nglg-composition-saves'):null;
