@@ -4,3 +4,5 @@
 .officer-upload{padding:12px;border:1px solid #d7dee9;border-radius:10px;margin:12px 0}.officer-upload img{display:block;max-width:110px;max-height:150px;object-fit:contain;margin:8px 0}.officer-upload img[hidden]{display:none}
 
 .upload-values{display:grid;grid-template-columns:1fr 1fr;gap:8px}.upload-values label{font-size:12px}.officer-upload h3{font-size:16px;margin:0 0 8px}.officer-upload img{background:repeating-conic-gradient(#eef0f3 0% 25%,white 0% 50%) 50%/16px 16px}
+
+.language-control{max-width:360px;margin:14px auto 0}.language-control label{margin:0 0 4px}.language-control select{padding:6px 10px}.language-control .small{color:#d6e1ee;margin:6px 0 0}
