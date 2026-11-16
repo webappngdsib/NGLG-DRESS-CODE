@@ -48,6 +48,18 @@
           "enabled": true
         }
       }
+    },
+    "craft/wm": {
+      "layers": {
+        "apron": {
+          "x": 50,
+          "y": 58,
+          "size": 48,
+          "rotation": 0,
+          "enabled": true,
+          "src": "assets/apron-wm.png"
+        }
+      }
     }
   }
 }

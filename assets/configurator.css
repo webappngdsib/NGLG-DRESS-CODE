@@ -2,3 +2,5 @@
 .image-title{position:absolute;bottom:0;left:0;right:0;z-index:2;background:rgba(16,42,75,.9);color:white;text-align:center;font-size:12px;line-height:1.4;padding:5px 8px;pointer-events:none}
 
 .officer-upload{padding:12px;border:1px solid #d7dee9;border-radius:10px;margin:12px 0}.officer-upload img{display:block;max-width:110px;max-height:150px;object-fit:contain;margin:8px 0}.officer-upload img[hidden]{display:none}
+
+.upload-values{display:grid;grid-template-columns:1fr 1fr;gap:8px}.upload-values label{font-size:12px}.officer-upload h3{font-size:16px;margin:0 0 8px}.officer-upload img{background:repeating-conic-gradient(#eef0f3 0% 25%,white 0% 50%) 50%/16px 16px}
