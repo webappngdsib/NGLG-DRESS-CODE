@@ -17,9 +17,9 @@
       "layers": {
         "apron": {
           "src": "περιζωμα εταιρου.jpeg",
-          "x": 50,
-          "y": 58,
-          "size": 48,
+          "x": 49.5,
+          "y": 51,
+          "size": 33,
           "rotation": 0,
           "enabled": true
         }
@@ -28,10 +28,154 @@
     "craft/master": {
       "layers": {
         "apron": {
-          "src": "περιζωμα διδασκαλου.jpeg",
+          "src": "assets/compositions/18d20c5f18e956f38e5fcc8d.png",
           "x": 50,
-          "y": 58,
-          "size": 48,
+          "y": 52,
+          "size": 36.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/craft_officer": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 24,
+          "size": 26.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/39a0d9ef22e7f5c3fc8d3613.png",
+          "x": 50,
+          "y": 36.5,
+          "size": 9,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/marshal": {
+      "layers": {
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 49.5,
+          "y": 25,
+          "size": 28,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/f137792115855383892ccfde.png",
+          "x": 49,
+          "y": 38,
+          "size": 10.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 50,
+          "y": 54,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "apron-master.png"
+        }
+      }
+    },
+    "craft/junior_warden": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 49.5,
+          "y": 57,
+          "size": 39.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "apron-master.png"
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 25,
+          "size": 28.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/9566bf8b54721869f9b3d6ab.png",
+          "x": 50,
+          "y": 40,
+          "size": 5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/senior_warden": {
+      "layers": {
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 49.5,
+          "y": 25,
+          "size": 28.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/2661113ff659a96c7321c086.png",
+          "x": 49,
+          "y": 38.5,
+          "size": 11,
+          "rotation": 0,
+          "enabled": true
+        },
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 49.5,
+          "y": 53.5,
+          "size": 37.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "apron-master.png"
+        }
+      }
+    },
+    "craft/wm": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/38438afefd7e07f9b3f19bc6.png",
+          "x": 50,
+          "y": 49.5,
+          "size": 33.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "sevasmios apron.png"
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 24.5,
+          "size": 27,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/485b51a06646cb61078c732e.png",
+          "x": 50,
+          "y": 36,
+          "size": 14,
           "rotation": 0,
           "enabled": true
         }
@@ -49,15 +193,115 @@
         }
       }
     },
-    "craft/wm": {
+    "craft/master/arch_member": {
       "layers": {
         "apron": {
+          "src": "assets/compositions/35017d635d7c5382867424a4.png",
           "x": 50,
-          "y": 58,
-          "size": 48,
+          "y": 52,
+          "size": 36.5,
           "rotation": 0,
-          "enabled": true,
-          "src": "assets/apron-wm.png"
+          "enabled": true
+        },
+        "arch_jewel": {
+          "src": "assets/compositions/db8ccf9c36094f8c8765cdbb.png",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/master/arch_third": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/35017d635d7c5382867424a4.png",
+          "x": 50,
+          "y": 52,
+          "size": 36.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arch_jewel": {
+          "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/master/arch_second": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/35017d635d7c5382867424a4.png",
+          "x": 50,
+          "y": 52,
+          "size": 36.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arch_jewel": {
+          "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/master/arch_first": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/35017d635d7c5382867424a4.png",
+          "x": 50,
+          "y": 52,
+          "size": 36.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arch_jewel": {
+          "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/craft_officer/arch_first": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/35017d635d7c5382867424a4.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arch_jewel": {
+          "src": "",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/wm/arch_member": {
+      "layers": {
+        "arch_jewel": {
+          "src": "assets/compositions/db8ccf9c36094f8c8765cdbb.png",
+          "x": 61,
+          "y": 29.5,
+          "size": 4.5,
+          "rotation": 0,
+          "enabled": true
         }
       }
     }
