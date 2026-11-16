@@ -304,6 +304,37 @@
           "enabled": true
         }
       }
+    },
+    "craft/past_wm": {
+      "layers": {
+        "apron": {
+          "src": "assets/compositions/38438afefd7e07f9b3f19bc6.png",
+          "x": 49.5,
+          "y": 54,
+          "size": 36.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "sevasmios apron.png"
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 49.5,
+          "y": 26,
+          "size": 32.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "αρχείο λήψης (4).png"
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/7997fcbdaec5efba249783a3.png",
+          "x": 49.5,
+          "y": 40,
+          "size": 10.5,
+          "rotation": 0,
+          "enabled": true,
+          "fileName": "proin sev.png"
+        }
+      }
     }
   }
 }

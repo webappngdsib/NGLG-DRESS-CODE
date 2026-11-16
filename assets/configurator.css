@@ -6,3 +6,4 @@
 .upload-values{display:grid;grid-template-columns:1fr 1fr;gap:8px}.upload-values label{font-size:12px}.officer-upload h3{font-size:16px;margin:0 0 8px}.officer-upload img{background:repeating-conic-gradient(#eef0f3 0% 25%,white 0% 50%) 50%/16px 16px}
 
 .language-control{max-width:360px;margin:14px auto 0}.language-control label{margin:0 0 4px}.language-control select{padding:6px 10px}.language-control .small{color:#d6e1ee;margin:6px 0 0}
+.grand-master-credit{margin-top:12px;color:#182b45;font-size:14px;font-weight:600;line-height:1.5}.grand-master-credit p{margin:2px 0}
