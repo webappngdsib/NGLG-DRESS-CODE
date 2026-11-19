@@ -419,6 +419,18 @@
           "fileName": "proin sev.png"
         }
       }
+    },
+    "grand/grand_secretary": {
+      "layers": {
+        "book": {
+          "src": "assets/compositions/grand-secretary-book.png",
+          "x": 73,
+          "y": 55,
+          "size": 17,
+          "rotation": -6,
+          "enabled": true
+        }
+      }
     }
   }
 }
