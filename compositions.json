@@ -90,6 +90,14 @@
           "size": 9,
           "rotation": 0,
           "enabled": true
+        },
+        "book": {
+          "src": "assets/compositions/grand-secretary-book.png",
+          "x": 73,
+          "y": 55,
+          "size": 17,
+          "rotation": -6,
+          "enabled": true
         }
       }
     },

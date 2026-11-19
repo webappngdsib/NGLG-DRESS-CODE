@@ -135,4 +135,4 @@
 
 ## Βιβλίο Μεγάλου Γραμματέα
 
-Νέο στοιχείο **Βιβλίο (στο χέρι)** στον Builder. Στον **Μέγα Γραμματέα** εμφανίζεται το βιβλίο *The Constitutions of the Free-Masons* (1723) στο χέρι της φιγούρας (`assets/compositions/grand-secretary-book.png`). Η θέση, το μέγεθος και η περιστροφή ρυθμίζονται από τον Builder.
+Νέο στοιχείο **Βιβλίο (στο χέρι)** στον Builder. Στον **Μέγα Γραμματέα** και στον **Αξιωματικό Γραμματέα** εμφανίζεται το βιβλίο *The Constitutions of the Free-Masons* (1723) στο χέρι της φιγούρας (`assets/compositions/grand-secretary-book.png`). Η θέση, το μέγεθος και η περιστροφή ρυθμίζονται από τον Builder.
