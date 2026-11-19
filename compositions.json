@@ -37,6 +37,34 @@
         }
       }
     },
+    "craft/examiner": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 24,
+          "size": 26.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/examiner-sword-jewel.png",
+          "x": 50,
+          "y": 37.5,
+          "size": 4,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
     "craft/craft_officer": {
       "layers": {
         "apron": {
