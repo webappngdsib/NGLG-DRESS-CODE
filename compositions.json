@@ -93,14 +93,22 @@
         },
         "book": {
           "src": "assets/compositions/grand-secretary-book.png",
-          "x": 61.5,
-          "y": 36.6,
-          "size": 17,
-          "rotation": -3,
+          "x": 66.4,
+          "y": 34.5,
+          "size": 22,
+          "rotation": -2,
           "enabled": true
         },
         "arm": {
-          "src": "assets/forearm-raised.png",
+          "src": "assets/forearm-raised-out.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "glasses": {
+          "src": "assets/glasses-round.png",
           "x": 50,
           "y": 50,
           "size": 100,
@@ -222,10 +230,10 @@
           "enabled": true
         },
         "gavel": {
-          "src": "assets/compositions/gavel.png",
-          "x": 59.5,
-          "y": 35.9,
-          "size": 8,
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         },
@@ -267,10 +275,10 @@
           "fileName": "apron-master.png"
         },
         "gavel": {
-          "src": "assets/compositions/gavel.png",
-          "x": 59.5,
-          "y": 35.9,
-          "size": 8,
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         },
@@ -312,10 +320,10 @@
           "enabled": true
         },
         "gavel": {
-          "src": "assets/compositions/gavel.png",
-          "x": 59.5,
-          "y": 35.9,
-          "size": 8,
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         },
@@ -483,10 +491,10 @@
           "fileName": "proin sev.png"
         },
         "gavel": {
-          "src": "assets/compositions/gavel.png",
-          "x": 59.5,
-          "y": 35.9,
-          "size": 8,
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         },
@@ -504,14 +512,22 @@
       "layers": {
         "book": {
           "src": "assets/compositions/grand-secretary-book.png",
-          "x": 61.5,
-          "y": 36.6,
-          "size": 17,
-          "rotation": -3,
+          "x": 66.4,
+          "y": 34.5,
+          "size": 22,
+          "rotation": -2,
           "enabled": true
         },
         "arm": {
-          "src": "assets/forearm-raised.png",
+          "src": "assets/forearm-raised-out.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "glasses": {
+          "src": "assets/glasses-round.png",
           "x": 50,
           "y": 50,
           "size": 100,
