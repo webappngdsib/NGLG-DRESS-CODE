@@ -93,10 +93,18 @@
         },
         "book": {
           "src": "assets/compositions/grand-secretary-book.png",
-          "x": 73,
-          "y": 55,
+          "x": 61.5,
+          "y": 36.6,
           "size": 17,
-          "rotation": -6,
+          "rotation": -3,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
@@ -215,10 +223,18 @@
         },
         "gavel": {
           "src": "assets/compositions/gavel.png",
-          "x": 72.6,
-          "y": 64.5,
-          "size": 9,
-          "rotation": 180,
+          "x": 59.5,
+          "y": 35.9,
+          "size": 8,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
@@ -252,10 +268,18 @@
         },
         "gavel": {
           "src": "assets/compositions/gavel.png",
-          "x": 72.6,
-          "y": 64.5,
-          "size": 9,
-          "rotation": 180,
+          "x": 59.5,
+          "y": 35.9,
+          "size": 8,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
@@ -289,10 +313,18 @@
         },
         "gavel": {
           "src": "assets/compositions/gavel.png",
-          "x": 72.6,
-          "y": 64.5,
-          "size": 9,
-          "rotation": 180,
+          "x": 59.5,
+          "y": 35.9,
+          "size": 8,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
@@ -452,10 +484,18 @@
         },
         "gavel": {
           "src": "assets/compositions/gavel.png",
-          "x": 72.6,
-          "y": 64.5,
-          "size": 9,
-          "rotation": 180,
+          "x": 59.5,
+          "y": 35.9,
+          "size": 8,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
@@ -464,10 +504,18 @@
       "layers": {
         "book": {
           "src": "assets/compositions/grand-secretary-book.png",
-          "x": 73,
-          "y": 55,
+          "x": 61.5,
+          "y": 36.6,
           "size": 17,
-          "rotation": -6,
+          "rotation": -3,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         }
       }
