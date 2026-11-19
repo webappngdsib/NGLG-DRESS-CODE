@@ -65,6 +65,62 @@
         }
       }
     },
+    "craft/treasurer": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 24,
+          "size": 26.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/treasurer-key-jewel.png",
+          "x": 50,
+          "y": 37,
+          "size": 6,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "craft/almoner": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-wm.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar": {
+          "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
+          "x": 50,
+          "y": 24,
+          "size": 26.5,
+          "rotation": 0,
+          "enabled": true
+        },
+        "collar_jewel": {
+          "src": "assets/compositions/almoner-jewel.png",
+          "x": 50,
+          "y": 36.5,
+          "size": 9,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
     "craft/marshal": {
       "layers": {
         "collar": {
