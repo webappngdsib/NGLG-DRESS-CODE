@@ -92,11 +92,11 @@
           "enabled": true
         },
         "book": {
-          "src": "assets/compositions/grand-secretary-book.png",
-          "x": 66.4,
-          "y": 34.5,
-          "size": 22,
-          "rotation": -2,
+          "src": "assets/book-held-open.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         },
         "arm": {
@@ -511,11 +511,11 @@
     "grand/grand_secretary": {
       "layers": {
         "book": {
-          "src": "assets/compositions/grand-secretary-book.png",
-          "x": 66.4,
-          "y": 34.5,
-          "size": 22,
-          "rotation": -2,
+          "src": "assets/book-held-open.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
           "enabled": true
         },
         "arm": {
