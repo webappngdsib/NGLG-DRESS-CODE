@@ -51,7 +51,7 @@
           "src": "assets/compositions/2679ac2fe48dbe58e8df9f16.png",
           "x": 50,
           "y": 24,
-          "size": 26.5,
+          "size": 28.5,
           "rotation": 0,
           "enabled": true
         },
@@ -88,6 +88,30 @@
           "x": 50,
           "y": 36.5,
           "size": 9,
+          "rotation": 0,
+          "enabled": true
+        },
+        "book": {
+          "src": "assets/book-held-open.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised-out.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "glasses": {
+          "src": "assets/glasses-round.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         }
@@ -204,6 +228,22 @@
           "size": 5,
           "rotation": 0,
           "enabled": true
+        },
+        "gavel": {
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
         }
       }
     },
@@ -233,6 +273,22 @@
           "rotation": 0,
           "enabled": true,
           "fileName": "apron-master.png"
+        },
+        "gavel": {
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
         }
       }
     },
@@ -260,6 +316,22 @@
           "x": 50,
           "y": 36,
           "size": 14,
+          "rotation": 0,
+          "enabled": true
+        },
+        "gavel": {
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
           "rotation": 0,
           "enabled": true
         }
@@ -417,6 +489,50 @@
           "rotation": 0,
           "enabled": true,
           "fileName": "proin sev.png"
+        },
+        "gavel": {
+          "src": "assets/gavel-raised-grip.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "grand/grand_secretary": {
+      "layers": {
+        "book": {
+          "src": "assets/book-held-open.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "arm": {
+          "src": "assets/forearm-raised-out.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
+        },
+        "glasses": {
+          "src": "assets/glasses-round.png",
+          "x": 50,
+          "y": 50,
+          "size": 100,
+          "rotation": 0,
+          "enabled": true
         }
       }
     }
