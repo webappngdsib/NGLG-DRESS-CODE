@@ -547,7 +547,7 @@
     "stewards/steward_bro": {
       "layers": {
         "apron": {
-          "src": "assets/apron-grand-steward.png",
+          "src": "assets/apron-grand-steward-rosettes.png",
           "x": 50,
           "y": 52,
           "size": 37,
@@ -559,7 +559,7 @@
     "stewards/steward_wm": {
       "layers": {
         "apron": {
-          "src": "assets/apron-grand-steward-wm.png",
+          "src": "assets/apron-grand-steward-taus.png",
           "x": 50,
           "y": 52,
           "size": 37,
