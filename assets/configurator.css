@@ -21,3 +21,6 @@ body.embed .panel.preview{box-shadow:none;border:0;margin:0}
 label[for=archRole]{font-size:19px;font-weight:700;color:#c8102e;margin-top:18px}
 /* Σήμα της Ιεράς Βασιλικής Αψίδος (τριπλό Ταυ) κάτω από το πεδίο ΙΒΑ */
 .arch-emblem{display:block;width:130px;height:130px;margin:14px auto 6px}
+/* Σήμα της Αψίδος στην εκτύπωση / PDF: όταν υπάρχει το πεδίο ΙΒΑ (Συμβολική Στοά — Διδάσκαλος, Σεβάσμιος, Αξιωματικοί) */
+.arch-emblem-print{display:none}
+@media print{body.arch-on .arch-emblem-print{display:block;width:30mm;height:30mm;margin:4mm auto 0;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
