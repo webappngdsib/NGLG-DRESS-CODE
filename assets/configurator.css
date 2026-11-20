@@ -24,3 +24,5 @@ label[for=archRole]{font-size:19px;font-weight:700;color:#c8102e;margin-top:18px
 /* Σήμα της Αψίδος στην εκτύπωση / PDF: όταν υπάρχει το πεδίο ΙΒΑ (Συμβολική Στοά — Διδάσκαλος, Σεβάσμιος, Αξιωματικοί) */
 .arch-emblem-print{display:none}
 @media print{body.arch-on .arch-emblem-print{display:block;width:30mm;height:30mm;margin:4mm auto 0;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* embed=1 (σελίδα «Ενδυμασία» του Διατάγματος στην εφαρμογή): το σήμα της Αψίδος φαίνεται και στην οθόνη, κάτω από τη φιγούρα */
+body.embed.arch-on .arch-emblem-print{display:block;width:110px;height:110px;margin:12px auto 0}
