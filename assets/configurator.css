@@ -11,3 +11,9 @@
 .header-credit{margin:0 auto 12px;color:white;text-shadow:0 2px 5px rgba(0,0,0,.55)}
 .print-credit{display:none}@media print{@page{margin:12mm 14mm 27mm}.print-credit{display:block;position:fixed;right:12mm;bottom:8mm;left:12mm;border-top:1px solid #b9944e;padding-top:4mm;text-align:center;color:#182b45;font-size:10.5pt;font-weight:600;line-height:1.4}.print-credit p{margin:0}.print-credit-en{display:none}html[lang="en"] .print-credit-el{display:none}html[lang="en"] .print-credit-en{display:block}}
 .stage img#layer-arm{filter:drop-shadow(0 3px 4px rgba(0,0,0,.35))}
+/* Σύνδεσμος από την εφαρμογή (Διάταγμα): όνομα Αδελφού και τίτλος κάτω από τον βαθμό */
+.person-line{margin:-4px 0 10px;font-weight:700;color:#1d2f5e;text-align:center}
+/* embed=1: μόνο η φιγούρα με τίτλο, για ενσωμάτωση σε άλλη σελίδα */
+body.embed>header,body.embed>footer,body.embed .controls,body.embed .toolbar{display:none!important}
+body.embed main{display:block;padding:0;margin:0 auto;max-width:640px}
+body.embed .panel.preview{box-shadow:none;border:0;margin:0}
