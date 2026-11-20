@@ -543,6 +543,30 @@
           "enabled": true
         }
       }
+    },
+    "stewards/steward_bro": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-grand-steward.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
+    },
+    "stewards/steward_wm": {
+      "layers": {
+        "apron": {
+          "src": "assets/apron-grand-steward-wm.png",
+          "x": 50,
+          "y": 52,
+          "size": 37,
+          "rotation": 0,
+          "enabled": true
+        }
+      }
     }
   }
 }
