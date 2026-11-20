@@ -19,3 +19,5 @@ body.embed main{display:block;padding:0;margin:0 auto;max-width:640px}
 body.embed .panel.preview{box-shadow:none;border:0;margin:0}
 /* «Πρόσθετη ιδιότητα στην Ιερά Βασιλική Αψίδα»: μεγαλύτερη και κόκκινη, να ξεχωρίζει */
 label[for=archRole]{font-size:19px;font-weight:700;color:#c8102e;margin-top:18px}
+/* Σήμα της Ιεράς Βασιλικής Αψίδος (τριπλό Ταυ) κάτω από το πεδίο ΙΒΑ */
+.arch-emblem{display:block;width:96px;height:96px;margin:12px auto 4px}
