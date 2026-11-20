@@ -30,3 +30,5 @@ body.embed.arch-on .arch-emblem-print{display:block;width:110px;height:110px;mar
 #archRole.arch-none{color:#c8102e;font-weight:700}
 #archRole option{color:#182b45;font-weight:400}
 #archRole option[value=none]{color:#c8102e;font-weight:700}
+/* «Βαθμός ή αξίωμα»: μεγαλύτερη, έντονη ετικέτα */
+label[for=role]{font-size:19px;font-weight:700;color:#102a4b;margin-top:16px}
