@@ -345,18 +345,6 @@
         }
       }
     },
-    "grand/grand_steward": {
-      "layers": {
-        "apron": {
-          "src": "περιζωμα ΜΕγ Επιμελητη.jpeg",
-          "x": 50,
-          "y": 58,
-          "size": 48,
-          "rotation": 0,
-          "enabled": true
-        }
-      }
-    },
     "craft/master/arch_member": {
       "layers": {
         "apron": {
