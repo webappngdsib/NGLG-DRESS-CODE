@@ -32,3 +32,6 @@ body.embed.arch-on .arch-emblem-print{display:block;width:110px;height:110px;mar
 #archRole option[value=none]{color:#c8102e;font-weight:700}
 /* «Βαθμός ή αξίωμα»: μεγαλύτερη, έντονη ετικέτα */
 label[for=role]{font-size:19px;font-weight:700;color:#102a4b;margin-top:16px}
+/* Κόσμημα Αγαθοεργίας (Χρυσό): επιλογή σε όλες τις κατηγορίες */
+.charity-check{margin:16px 0 4px;font-size:16px;font-weight:700;color:#8a6a1f;cursor:pointer}
+.charity-check input{width:20px;height:20px;accent-color:#b9944e}
