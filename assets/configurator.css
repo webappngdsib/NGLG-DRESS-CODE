@@ -35,3 +35,7 @@ label[for=role]{font-size:19px;font-weight:700;color:#102a4b;margin-top:16px}
 /* Κόσμημα Αγαθοεργίας (Χρυσό): επιλογή σε όλες τις κατηγορίες */
 .charity-check{margin:16px 0 4px;font-size:16px;font-weight:700;color:#8a6a1f;cursor:pointer}
 .charity-check input{width:20px;height:20px;accent-color:#b9944e}
+/* Builder: εργαλεία τοποθέτησης του κοσμήματος Αγαθοεργίας, πάντα ορατά κάτω από το κουτάκι */
+.charity-tools{display:flex;flex-direction:column;gap:8px;margin:6px 0 10px}
+.charity-tools button{width:100%;text-align:left}
+#applyCharityAll{background:#b9944e;color:#fff;font-weight:700}
