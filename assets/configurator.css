@@ -53,3 +53,15 @@ body.detail-open{overflow:hidden}
 @media print{.detail-view{display:none!important}}
 .detail-hint{text-align:center;color:#8a6a1f;font-weight:600;margin:8px 0 0}
 @media print{.detail-hint{display:none}}
+/* Εκτύπωση / PDF: ολόκληρη η φιγούρα (και τα παπούτσια), μεγαλύτερη, και δεξιά της πάντα το έμβλημα της ΕΜΣτΕ
+   (από κάτω του το σήμα της Αψίδος, όταν ο βαθμός έχει πεδίο ΙΒΑ) */
+.nglg-emblem-print{display:none}
+@media print{
+  .figure-row{display:flex;align-items:center;justify-content:center;gap:6mm;margin-top:3mm}
+  .figure-row .stage{flex:0 0 auto;width:118mm;max-width:none;height:177mm;aspect-ratio:auto;margin:0;border:0;border-radius:0}
+  .figure-row .image-title,#compositionStatus{display:none!important}
+  .print-side{flex:0 0 44mm;display:flex;flex-direction:column;align-items:center;gap:8mm}
+  .nglg-emblem-print{display:block;width:44mm;height:auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body.arch-on .print-side .arch-emblem-print{margin:0;width:30mm;height:30mm}
+  .stage img.layer,.stage img.base{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
