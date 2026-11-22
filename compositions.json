@@ -357,9 +357,9 @@
         },
         "arch_jewel": {
           "src": "assets/compositions/db8ccf9c36094f8c8765cdbb.png",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
@@ -377,9 +377,9 @@
         },
         "arch_jewel": {
           "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
@@ -397,9 +397,9 @@
         },
         "arch_jewel": {
           "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
@@ -417,9 +417,9 @@
         },
         "arch_jewel": {
           "src": "assets/compositions/90cbf3430cf91c78a3589fb9.png",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
@@ -437,9 +437,9 @@
         },
         "arch_jewel": {
           "src": "",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
@@ -449,9 +449,9 @@
       "layers": {
         "arch_jewel": {
           "src": "assets/compositions/db8ccf9c36094f8c8765cdbb.png",
-          "x": 61,
-          "y": 29.5,
-          "size": 4.5,
+          "x": 59.2,
+          "y": 30,
+          "size": 5,
           "rotation": 0,
           "enabled": true
         }
