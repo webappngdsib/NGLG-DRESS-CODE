@@ -65,3 +65,7 @@ body.detail-open{overflow:hidden}
   body.arch-on .print-side .arch-emblem-print{margin:0;width:30mm;height:30mm}
   .stage img.layer,.stage img.base{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+/* Ισπανικά / Πορτογαλικά Βραζιλίας: η υπογραφή της εκτύπωσης στα Αγγλικά (όπως στην αγγλική έκδοση) */
+html[lang="es"] .print-credit-el,html[lang="pt-BR"] .print-credit-el{display:none}
+html[lang="es"] .print-credit-en,html[lang="pt-BR"] .print-credit-en{display:block}
+html[lang="es"] .grand-master-credit p[lang="el"],html[lang="pt-BR"] .grand-master-credit p[lang="el"]{display:none}
