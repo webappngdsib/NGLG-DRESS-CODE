@@ -39,3 +39,17 @@ label[for=role]{font-size:19px;font-weight:700;color:#102a4b;margin-top:16px}
 .charity-tools{display:flex;flex-direction:column;gap:8px;margin:6px 0 10px}
 .charity-tools button{width:100%;text-align:left}
 #applyCharityAll{background:#b9944e;color:#fff;font-weight:700}
+/* Προβολή λεπτομέρειας (Παρουσίαση): το στοιχείο μεγάλο, προσαρμοσμένο στην οθόνη με περιθώριο 30% */
+.detail-view{position:fixed;inset:0;z-index:1000;background:rgba(16,42,75,.86);display:flex;align-items:center;justify-content:center;padding:15vh 15vw;cursor:zoom-out;animation:dvIn .18s ease-out}
+.detail-view[hidden]{display:none}
+.detail-view figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:12px;max-width:70vw;max-height:70vh}
+.detail-view img{max-width:70vw;max-height:calc(70vh - 40px);width:auto;height:auto;object-fit:contain;background:#fff;border-radius:12px;padding:3vmin;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.detail-view figcaption{color:#fff;font-weight:700;text-align:center;font-size:clamp(14px,2.2vmin,20px)}
+.detail-close{position:fixed;top:14px;right:14px;width:46px;height:46px;border-radius:50%;background:#fff;color:#102a4b;font-size:22px;padding:0;line-height:46px;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+body.detail-open{overflow:hidden}
+.stage.detail-zoomable{touch-action:manipulation}
+@keyframes dvIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+@media (max-width:760px){.detail-view{padding:15vh 15vw}}
+@media print{.detail-view{display:none!important}}
+.detail-hint{text-align:center;color:#8a6a1f;font-weight:600;margin:8px 0 0}
+@media print{.detail-hint{display:none}}
